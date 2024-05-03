@@ -170,7 +170,7 @@
                 "t": "set",
                 "p": "payload.type",
                 "pt": "msg",
-                "to": "type",
+                "to": "message",
                 "tot": "str"
             },
             {
