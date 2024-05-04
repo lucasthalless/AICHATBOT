@@ -1,0 +1,711 @@
+{
+  "intents": [
+    {
+      "intent": "cadastramento",
+      "examples": [
+        {
+          "text": "11994215846"
+        },
+        {
+          "text": "Carol"
+        },
+        {
+          "text": "e-mail"
+        },
+        {
+          "text": "me chamo"
+        },
+        {
+          "text": "meu celular é"
+        },
+        {
+          "text": "meu e-mail é"
+        },
+        {
+          "text": "meu endereço de e-mail é"
+        },
+        {
+          "text": "meu nome completo é"
+        },
+        {
+          "text": "meu nome é"
+        },
+        {
+          "text": "meu número de telefone é"
+        },
+        {
+          "text": "meu número é"
+        },
+        {
+          "text": "meus dados são"
+        },
+        {
+          "text": "meu sobrenome é"
+        },
+        {
+          "text": "meu telefone é"
+        },
+        {
+          "text": "nome"
+        },
+        {
+          "text": "telefone"
+        }
+      ],
+      "description": "intenção de cadastrar o usuário"
+    },
+    {
+      "intent": "cancelamento",
+      "examples": [
+        {
+          "text": "Cancelamento"
+        },
+        {
+          "text": "Cancelamento de matrícula"
+        },
+        {
+          "text": "Cancelar"
+        },
+        {
+          "text": "Cancelar minha matrícula"
+        },
+        {
+          "text": "Cancelar processo"
+        },
+        {
+          "text": "Como cancelo minha matrícula"
+        },
+        {
+          "text": "Não quero"
+        },
+        {
+          "text": "Não quero mais"
+        },
+        {
+          "text": "Não quero mais me matricular"
+        },
+        {
+          "text": "Não quero me matricular"
+        },
+        {
+          "text": "Quero cancelar"
+        },
+        {
+          "text": "Quero cancelar minha matrícula"
+        }
+      ],
+      "description": "Intenção de cancelamento de matrícula"
+    },
+    {
+      "intent": "conclusão",
+      "examples": [
+        {
+          "text": "Adeus"
+        },
+        {
+          "text": "Concluir"
+        },
+        {
+          "text": "Encerrar"
+        },
+        {
+          "text": "Encerrar atendimento"
+        },
+        {
+          "text": "Finalizar"
+        },
+        {
+          "text": "Finalizar chat"
+        },
+        {
+          "text": "Não, é só isso"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Só isso mesmo"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Valeu pela ajuda"
+        }
+      ],
+      "description": "Intenção de agradecimentos"
+    },
+    {
+      "intent": "diploma",
+      "examples": [
+        {
+          "text": "Buscar meu diploma"
+        },
+        {
+          "text": "Meu diploma está pronto?"
+        },
+        {
+          "text": "Pegar diploma"
+        },
+        {
+          "text": "Pegar meu diploma"
+        },
+        {
+          "text": "Posso retirar meu diploma?"
+        },
+        {
+          "text": "Quando posso retirar meu diploma?"
+        },
+        {
+          "text": "Quero buscar meu diploma"
+        },
+        {
+          "text": "Quero pegar meu diploma"
+        },
+        {
+          "text": "Quero retirar meu diploma"
+        },
+        {
+          "text": "Retirada do diploma"
+        },
+        {
+          "text": "Retirar diploma"
+        },
+        {
+          "text": "Retirar meu diploma"
+        }
+      ],
+      "description": "Intenção referente a dúvidas do diploma"
+    },
+    {
+      "intent": "matrícula",
+      "examples": [
+        {
+          "text": "como faço para me matricular?"
+        },
+        {
+          "text": "como me matrículo?"
+        },
+        {
+          "text": "Documentos necessários para matrícula"
+        },
+        {
+          "text": "Fazer matrícula"
+        },
+        {
+          "text": "Gostaria de me matricular"
+        },
+        {
+          "text": "Gostaria de saber como me matricular"
+        },
+        {
+          "text": "Informações sobre a matrícula"
+        },
+        {
+          "text": "Pode me meatricular?"
+        },
+        {
+          "text": "Posso me matricular?"
+        },
+        {
+          "text": "Quero fazer a matricula"
+        },
+        {
+          "text": "Quero informações sobre a matrícula"
+        },
+        {
+          "text": "Quero me matricular"
+        }
+      ],
+      "description": "Intenção em ajudar os alunos a realizar a matrícula"
+    },
+    {
+      "intent": "status_matricula",
+      "examples": [
+        {
+          "text": "Andamento da matrícula"
+        },
+        {
+          "text": "Aprovação da matrícula"
+        },
+        {
+          "text": "Como está minha matrícula?"
+        },
+        {
+          "text": "Estou matriculado?"
+        },
+        {
+          "text": "Já estou matriculado?"
+        },
+        {
+          "text": "Minha matrícula está em andamento?"
+        },
+        {
+          "text": "Minha matrícula está pendente?"
+        },
+        {
+          "text": "Minha matrícula está pronta?"
+        },
+        {
+          "text": "Minha matrícula foi aprovada?"
+        },
+        {
+          "text": "Qual o andamento da minha matrícula?"
+        },
+        {
+          "text": "Qual o status da minha matrícula?"
+        },
+        {
+          "text": "Status da matrícula"
+        }
+      ],
+      "description": "Informações sobre o status da matrícula."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cpf",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cpf",
+          "patterns": [
+            "^\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "nome",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "nome",
+          "patterns": [
+            "^[a-zA-ZÀ-ú]+(([',. -][a-zA-ZÀ-ú ])?[a-zA-ZÀ-ú]*)*$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "rg",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "rg",
+          "patterns": [
+            "^\\d{2}\\.\\d{3}\\.\\d{3}-\\d{1}$",
+            "^\\d{9}$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "status",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "em andamento",
+          "synonyms": [
+            "em curso",
+            "prosseguimento",
+            "seguimento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ok",
+          "synonyms": [
+            "concluído",
+            "finalizado",
+            "tudo certo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pendente",
+          "synonyms": [
+            "incompleto",
+            "irresoluto",
+            "irresolvido"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "^\\(?(?:(?:\\d{2})|\\d{3})\\)?[-. ]?\\d{4,5}[-. ]?\\d{4}$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "telegram",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "/start",
+          "synonyms": [
+            "/start"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_saida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "audio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "text",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Eu sou o MatriculAI. Você deseja realizar matrícula ou consultar o status do seu diploma?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome ||   @telegram:(/start)",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_6_1714696786141",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1714786459603",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1714786459603",
+      "previous_sibling": "handler_2_1714786459603"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1714786459603",
+      "context": {
+        "telefone": "@telefone.literal"
+      },
+      "conditions": "@telefone.literal",
+      "event_name": "input",
+      "dialog_node": "handler_2_1714786459603"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1714694220674",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1714694220674",
+      "previous_sibling": "handler_9_1714694220674"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1714786468221",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1714786468221",
+      "previous_sibling": "handler_7_1714786468221"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1714786468221",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email.literal",
+      "event_name": "input",
+      "dialog_node": "handler_7_1714786468221"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1714694220674",
+      "context": {
+        "nome": "@nome.literal"
+      },
+      "conditions": "@nome.literal",
+      "event_name": "input",
+      "dialog_node": "handler_9_1714694220674"
+    },
+    {
+      "type": "standard",
+      "title": "Andamento da matricula $nome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nome: $nome\nTelefone: $telefone\nE-mail: $email"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#status_matricula",
+      "dialog_node": "node_10_1714699465917",
+      "previous_sibling": "node_3_1714604941357"
+    },
+    {
+      "type": "frame",
+      "title": "Matricula",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para fazer sua matrícula, vou precisar de alguns dados. Primeiro, digite seu nome."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#matrícula",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1714604941357",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "frame",
+      "title": "Cadastramento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o seu telefone?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1714604941357",
+      "conditions": "@nome",
+      "dialog_node": "node_6_1714608356261"
+    },
+    {
+      "type": "standard",
+      "title": "Conclusão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado por usar o MatriculAI!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#conclusão",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1714696786141",
+      "previous_sibling": "node_8_1714696711299"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastramento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por último, qual o seu email?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1714608356261",
+      "conditions": "@telefone",
+      "dialog_node": "node_8_1714693329233"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastramento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Matrícula concluída! Te ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1714693329233",
+      "conditions": "@email",
+      "dialog_node": "node_8_1714693980093"
+    },
+    {
+      "type": "standard",
+      "title": "cancelamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para cancelar sua matrícula, direcione-se à escola com documento em mãos e solicite o cancelamento na secretaria."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cancelamento",
+      "dialog_node": "node_8_1714696711299",
+      "previous_sibling": "node_10_1714699465917"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1714608356261",
+      "variable": "$email",
+      "dialog_node": "slot_10_1714786468221",
+      "previous_sibling": "slot_9_1714786459603"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1714608356261",
+      "variable": "$nome",
+      "dialog_node": "slot_5_1714694220674",
+      "previous_sibling": "node_8_1714693329233"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1714608356261",
+      "variable": "$telefone",
+      "dialog_node": "slot_9_1714786459603",
+      "previous_sibling": "slot_5_1714694220674"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "created for assistant 018bf98b-071f-4e06-b8dd-f171777eac6e",
+  "name": "MatriculAI-dialog"
+}
