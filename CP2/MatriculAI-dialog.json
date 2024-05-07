@@ -502,30 +502,26 @@
       "output": {
         "generic": [
           {
-            "values": [
-              {
-                "text": ""
-              }
-            ],
+            "values": [],
             "response_type": "text"
           }
         ]
       },
-      "parent": "slot_10_1714786468221",
+      "parent": "slot_7_1714791080688",
       "event_name": "focus",
-      "dialog_node": "handler_4_1714786468221",
-      "previous_sibling": "handler_7_1714786468221"
+      "dialog_node": "handler_4_1714791080690",
+      "previous_sibling": "handler_5_1714791080690"
     },
     {
       "type": "event_handler",
       "output": {},
-      "parent": "slot_10_1714786468221",
+      "parent": "slot_7_1714791080688",
       "context": {
         "email": "@email.literal"
       },
       "conditions": "@email.literal",
       "event_name": "input",
-      "dialog_node": "handler_7_1714786468221"
+      "dialog_node": "handler_5_1714791080690"
     },
     {
       "type": "event_handler",
@@ -682,18 +678,18 @@
     },
     {
       "type": "slot",
-      "parent": "node_6_1714608356261",
-      "variable": "$email",
-      "dialog_node": "slot_10_1714786468221",
-      "previous_sibling": "slot_9_1714786459603"
-    },
-    {
-      "type": "slot",
       "output": {},
       "parent": "node_6_1714608356261",
       "variable": "$nome",
       "dialog_node": "slot_5_1714694220674",
       "previous_sibling": "node_8_1714693329233"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1714608356261",
+      "variable": "$email",
+      "dialog_node": "slot_7_1714791080688",
+      "previous_sibling": "slot_9_1714786459603"
     },
     {
       "type": "slot",
